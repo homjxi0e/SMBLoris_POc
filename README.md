@@ -12,3 +12,13 @@ And Windows immediately commits in memory a number of bytes determined by the at
 ------------------------------------------------------------------------------------------------------||
 
 SMBLoris works over IPv4 and IPv6, and acquiring multiple IPs on a LAN can amplify the attack. The amount of machines required to perform a distributed denial of service (DDoS) attack against more powerful servers is also significantly reduced.
+
+
+# But by me files
+1 rest.sh 
+2 run.sh  
+3 smb3.py 
+Works only on Kali version 2 #
+Or
+SMBLoris.c 
+Normal Works on All systems Linux !! Redhat kali And And And And Etc!!
