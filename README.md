@@ -75,3 +75,17 @@ import sys
 root@kali:~/Desktop# chmod +x run.sh
 
 root@kali:~/Desktop#./run.sh
+```
+
+------------------------------------------------------------------------------------------------------||
+------------------------------------------------------------------------------------------------------||
+Now let's go To Run file SMBLoris.c
+https://gist.github.com/jihadLkmaty218/72440aa47ec1852fd806efaf3752c52d
+
+>_  After the download file let's go To Run
+![screenshot from 2017-08-09 19-44-22](https://user-images.githubusercontent.com/25440152/29143202-50fe7d0a-7d22-11e7-9cda-7307c6cdb0a3.png)
+
+------------------------------------------------------------------------------------------------------||
+------------------------------------------------------------------------------------------------------||
+
+![screenshot from 2017-08-09 19-44-48](https://user-images.githubusercontent.com/25440152/29143208-53a592dc-7d22-11e7-892e-b3a20fef0ce2.png)
