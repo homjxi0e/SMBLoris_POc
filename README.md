@@ -92,3 +92,16 @@ https://gist.github.com/jihadLkmaty218/72440aa47ec1852fd806efaf3752c52d
 ------------------------------------------------------------------------------------------------------||
 
 ![screenshot from 2017-08-09 19-44-48](https://user-images.githubusercontent.com/25440152/29143208-53a592dc-7d22-11e7-892e-b3a20fef0ce2.png)
+
+The attack has similarities to Slowloris denial of service attacks that target web servers. Loris attacks occur when a single machine is able to open many connections to a server, maliciously using up extensive resources with minimal attack cost.
+
+While Slowloris temporarily takes down a web server, SMBLoris can completely take down the entire operating system.
+What are the technical details?
+
+The NetBIOS Session Service (NBSS) header is the initial TCP data transmitted to start an SMB session, and is processed before any authentication mechanism is ever established. It occupies 4 bytes of memory
+Windows immediately commits in memory a number of bytes determined by the attacker-controlled Length field, which is 217 for a max of 131,072 bytes (128 KiB). This memory is in the "non-paged pool" (physical RAM) which cannot be swapped out to disk, making the denial of service even more effective. CPU and memory resources are effectively lost for as long as the connection is sustained.
+
+------------------------------------------------------------------------------------------------------||
+------------------------------------------------------------------------------------------------------||
+
+SMBLoris works over IPv4 and IPv6, and acquiring multiple IPs on a LAN can amplify the attack. The amount of machines required to perform a distributed denial of service (DDoS) attack against more powerful servers is also significantly reduced
