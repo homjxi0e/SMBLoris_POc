@@ -105,3 +105,7 @@ Windows immediately commits in memory a number of bytes determined by the attack
 ------------------------------------------------------------------------------------------------------||
 
 SMBLoris works over IPv4 and IPv6, and acquiring multiple IPs on a LAN can amplify the attack. The amount of machines required to perform a distributed denial of service (DDoS) attack against more powerful servers is also significantly reduced
+..
+# And more my advice that learn that 
+Even if it is disabled Protocl SMB Remote consumption will work 
+
