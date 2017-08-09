@@ -27,3 +27,12 @@ SMBLoris.c
 
 Normal Works on All systems Linux !! Redhat kali And And And And Etc!!
 
+------------------------------------------------------------------------------------------------------||
+------------------------------------------------------------------------------------------------------||
+
+1 >_  Now we use
+
+2 >_ Now we go to run rest.sh
+
+![screenshot from 2017-08-09 19-19-12](https://user-images.githubusercontent.com/25440152/29142117-de3c8ec2-7d1e-11e7-8144-20261cf78916.png)
+
